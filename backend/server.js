@@ -14,7 +14,7 @@ const app = express();
 // CORS — allow Netlify, Angular dev, React dev
 app.use(cors({
     origin: [
-        'https://visionary-croissant-b593a5.netlify.app/',   // Netlify (React)
+        'https://visionary-croissant-b593a5.netlify.app',   // Netlify (React)
         'https://helpful-marigold-57d943.netlify.app', // Netlify (Angular)
         'http://localhost:4200',                  // Angular dev
         'http://localhost:5173'                   // React dev
