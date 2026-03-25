@@ -15,7 +15,7 @@ const app = express();
 app.use(cors({
     origin: [
         'https://campussync-cse.netlify.app',   // Netlify (React)
-        'https://helpful-marigold-57d943.netlify.app/', // Netlify (Angular) — update if different
+        'https://helpful-marigold-57d943.netlify.app', // Netlify (Angular)
         'http://localhost:4200',                  // Angular dev
         'http://localhost:5173'                   // React dev
     ],
