@@ -36,7 +36,7 @@ export default function FacultySubmissions() {
                                 </div>
                             </div>
                             {s.file?.path && (
-                                <a href={`http://localhost:5000/${s.file.path}`} target="_blank" className="btn-primary text-sm">Download</a>
+                                <a href={`https://campussync-1-bcpw.onrender.com/${s.file.path}`} target="_blank" className="btn-primary text-sm">Download</a>
                             )}
                         </div>
                         {s.marks === null && (

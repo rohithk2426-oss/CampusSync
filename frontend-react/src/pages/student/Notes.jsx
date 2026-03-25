@@ -36,7 +36,7 @@ export default function StudentNotes() {
                         <div className="flex justify-between items-center mt-4 pt-3 border-t border-[#2d3748]">
                             <span className="text-xs text-gray-500">{new Date(n.createdAt).toLocaleDateString()}</span>
                             {n.file?.path && (
-                                <a href={`http://localhost:5000/${n.file.path}`} target="_blank"
+                                <a href={`https://campussync-1-bcpw.onrender.com/${n.file.path}`} target="_blank"
                                     className="flex items-center gap-1 text-indigo-400 text-sm hover:text-indigo-300 group-hover:translate-x-1 transition-transform">
                                     <HiDownload size={14} /> Download
                                 </a>

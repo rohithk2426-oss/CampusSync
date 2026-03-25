@@ -14,7 +14,7 @@ export interface LoginResponse {
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-    private apiUrl = 'http://localhost:5000/api/auth';
+    private apiUrl = 'https://campussync-1-bcpw.onrender.com/api/auth';
     private currentUserSubject = new BehaviorSubject<LoginResponse | null>(null);
     public currentUser$ = this.currentUserSubject.asObservable();
 

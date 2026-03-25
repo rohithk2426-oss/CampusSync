@@ -11,7 +11,18 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
+// CORS — allow Netlify, Angular dev, React dev
+app.use(cors({
+    origin: [
+        'https://campussync-cse.netlify.app',   // Netlify (React)
+        'https://helpful-marigold-57d943.netlify.app/', // Netlify (Angular) — update if different
+        'http://localhost:4200',                  // Angular dev
+        'http://localhost:5173'                   // React dev
+    ],
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
