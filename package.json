@@ -1,0 +1,17 @@
+{
+    "name": "campussync",
+    "version": "1.0.0",
+    "description": "CampusSync - CSE Department Portal (Full Stack)",
+    "scripts": {
+        "install-all": "npm install --prefix backend && npm install --prefix frontend-angular --force && npm install --prefix frontend-react",
+        "backend": "npm run dev --prefix backend",
+        "angular": "npm run dev --prefix frontend-angular",
+        "react": "npm run dev --prefix frontend-react",
+        "dev": "concurrently \"npm run backend\" \"npm run react\"",
+        "dev:all": "concurrently \"npm run backend\" \"npm run angular\" \"npm run react\"",
+        "seed": "npm run seed --prefix backend"
+    },
+    "devDependencies": {
+        "concurrently": "^9.0.0"
+    }
+}

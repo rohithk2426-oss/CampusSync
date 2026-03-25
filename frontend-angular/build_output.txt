@@ -1,0 +1,17 @@
+[33m❯[39m Building...
+[32m✔[39m Building...
+[1mInitial chunk files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mmain-ZRJUGXHW.js[39m     [2m | [22m[2mmain[22m         [2m | [22m[36m711.41 kB[39m[2m | [22m              [36m132.86 kB[39m
+[32mchunk-WJ2AMVO6.js[39m    [2m | [22m[2m-[22m            [2m | [22m[36m173.20 kB[39m[2m | [22m               [36m50.39 kB[39m
+[32mstyles-P6G2WKVW.css[39m  [2m | [22m[2mstyles[22m       [2m | [22m[36m118.33 kB[39m[2m | [22m                [36m9.18 kB[39m
+[32mpolyfills-5CFQRCPP.js[39m[2m | [22m[2mpolyfills[22m    [2m | [22m [36m34.59 kB[39m[2m | [22m               [36m11.33 kB[39m
+
+[1m [22m                    [2m | [22m[1mInitial total[22m[2m | [22m  [1m1.04 MB[22m[2m | [22m              [1m203.77 kB[22m
+
+[1mLazy chunk files[22m     [2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mchunk-T77CXVOK.js[39m    [2m | [22m[2mbrowser[22m      [2m | [22m [36m67.75 kB[39m[2m | [22m               [36m17.77 kB[39m
+
+Application bundle generation complete. [5.334 seconds] - 2026-03-24T18:22:29.981Z
+
+Output location: D:\Desktop\CPU_OF_CEG\CampusSync\frontend-angular\dist\campussync-angular
+

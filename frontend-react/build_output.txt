@@ -1,0 +1,22 @@
+
+> campussync-react@1.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 103 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                      [39m[1m[2m  0.75 kB[22m[1m[22m[2m │ gzip:  0.46 kB[22m
+[2mdist/[22m[35massets/index-CCAIBxVU.css       [39m[1m[2m 21.35 kB[22m[1m[22m[2m │ gzip:  4.56 kB[22m
+[2mdist/[22m[36massets/Notes-DFwue6tY.js        [39m[1m[2m  2.04 kB[22m[1m[22m[2m │ gzip:  0.94 kB[22m
+[2mdist/[22m[36massets/Dashboard-Cy2KROY6.js    [39m[1m[2m  2.17 kB[22m[1m[22m[2m │ gzip:  0.89 kB[22m
+[2mdist/[22m[36massets/Submissions-DezghuP3.js  [39m[1m[2m  2.43 kB[22m[1m[22m[2m │ gzip:  1.04 kB[22m
+[2mdist/[22m[36massets/Assignments-FsolCV4x.js  [39m[1m[2m  3.50 kB[22m[1m[22m[2m │ gzip:  1.44 kB[22m
+[2mdist/[22m[36massets/Dashboard-BKFn74X7.js    [39m[1m[2m  3.94 kB[22m[1m[22m[2m │ gzip:  1.02 kB[22m
+[2mdist/[22m[36massets/Assignments-DHwNvphH.js  [39m[1m[2m  4.14 kB[22m[1m[22m[2m │ gzip:  1.39 kB[22m
+[2mdist/[22m[36massets/Feedback-DADhlsMK.js     [39m[1m[2m  4.19 kB[22m[1m[22m[2m │ gzip:  1.54 kB[22m
+[2mdist/[22m[36massets/Notes-BBYmpMyG.js        [39m[1m[2m  4.29 kB[22m[1m[22m[2m │ gzip:  1.56 kB[22m
+[2mdist/[22m[36massets/LabBooking-DrCjeuox.js   [39m[1m[2m  4.31 kB[22m[1m[22m[2m │ gzip:  1.64 kB[22m
+[2mdist/[22m[36massets/index-C9SUrVwf.js        [39m[1m[2m226.63 kB[22m[1m[22m[2m │ gzip: 75.10 kB[22m
+[32m✓ built in 1.91s[39m
